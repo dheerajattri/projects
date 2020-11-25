@@ -6,7 +6,7 @@ int main()
     printf("Add your number to find even sum : ");
   scanf ("%d" , &n);
   
-  for(i= 2 ; i<=n;i++){
+  for(i= 1 ; i<=n;i++){
       if(i%2==0){
        
             sum=sum+i;
